@@ -20,7 +20,7 @@ public class CalculatorTest {
       }
 
 	@Test	
-      public void testCalmul() {
+      public void testCalculator() {
         assertEquals("Result", 9, calc.add());
       }
 	
