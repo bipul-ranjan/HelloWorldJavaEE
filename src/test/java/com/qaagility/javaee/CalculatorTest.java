@@ -24,11 +24,11 @@ public class CalculatorTest {
         assertEquals("Result", 9, calc.add());
       }
 	@Test	
-      public void testCalculator-1() {
+      public void testCalculatorsecond() {
         assertEquals("Result", 8, calc.add());
       }
 	@Test	
-      public void testCalculator-2() {
+      public void testCalculatorthird() {
         assertEquals("Result", 9, calc.add());
       }
 	
