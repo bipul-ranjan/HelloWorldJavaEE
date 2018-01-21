@@ -24,11 +24,11 @@ public class CalmulTest {
         assertEquals("Result", 18, calcmul.mul());
       }
 	@Test	
-      public void testCalmul() {
+      public void testCalmul-1() {
         assertEquals("Result", 14, calcmul.mul());
       }
 	@Test	
-      public void testCalmul() {
+      public void testCalmul-2() {
         assertEquals("Result", 18, calcmul.mul());
       }
 	
