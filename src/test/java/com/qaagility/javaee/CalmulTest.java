@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import com.qaagility.javaee.*;
  
 public class CalmulTest {
-  Calmul calmul = new Calmul();
+  Calmul calcmul = new Calcmul();
 
       public void testSlow() {
         System.out.println("slow");
