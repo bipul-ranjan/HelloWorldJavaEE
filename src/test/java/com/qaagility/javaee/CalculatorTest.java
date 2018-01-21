@@ -23,5 +23,13 @@ public class CalculatorTest {
       public void testCalculator() {
         assertEquals("Result", 9, calc.add());
       }
+	@Test	
+      public void testCalculator-1() {
+        assertEquals("Result", 8, calc.add());
+      }
+	@Test	
+      public void testCalculator-2() {
+        assertEquals("Result", 9, calc.add());
+      }
 	
 }
