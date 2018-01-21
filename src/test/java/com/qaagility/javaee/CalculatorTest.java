@@ -1,4 +1,4 @@
-package com.qaagility.javaee;
+package com.qaagility.javaee.test;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
