@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import com.qaagility.javaee.*;
  
-public class CalmulTest {
+public class CalculatorTest {
   Calculator calc = new Calculator();
 
       public void testSlow() {
