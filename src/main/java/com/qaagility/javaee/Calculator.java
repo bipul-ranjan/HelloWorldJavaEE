@@ -1,4 +1,4 @@
-package com.qaagility.javaee;
+package main.java.com.qaagility.javaee;
 
 public class Calculator {
 

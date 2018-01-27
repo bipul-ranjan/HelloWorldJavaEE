@@ -1,11 +1,11 @@
-package com.qaagility.javaee.test;
+package test.java.com.qaagility.javaee;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import com.qaagility.javaee.*;
+import main.java.com.qaagility.javaee.*;
  
 public class ServletTest {
-  HelloServlet hello = new HelloServlet();
+  //HelloServlet hello = new HelloServlet();
 
       public void testSlow() {
         System.out.println("slow");
