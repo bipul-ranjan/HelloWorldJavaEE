@@ -35,7 +35,7 @@ public class HelloServlet extends HttpServlet {
 	     out.println("<head>");
 	     out.println("<title>Hello World</title>");
 	     out.println("</head>");
-	     out.println("<body bgcolor='red'>");
+	     out.println("<body bgcolor='green'>");
 		 out.println("<h1>Hello " + yourName + "</h1>");
 		 out.println("</body>");
 	     out.println("</html>");
