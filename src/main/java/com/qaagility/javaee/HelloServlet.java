@@ -30,9 +30,16 @@ public class HelloServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		String yourName = request.getParameter("yourName");
-		PrintWriter writer = response.getWriter();
-		writer.println("<h1>Hello " + yourName + "</h1>");
-		writer.close();
+		PrintWriter out = response.getWriter();
+		 out.println("<html>");
+	     out.println("<head>");
+	     out.println("<title>Hello World</title>");
+	     out.println("</head>");
+	     out.println("<body bgcolor='red'>");
+		 out.println("<h1>Hello " + yourName + "</h1>");
+		 out.println("</body>");
+	     out.println("</html>");
+		out.close();
 	}
 
 }
