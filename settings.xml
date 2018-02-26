@@ -4,12 +4,12 @@
   <servers>
     <server>
       <username>admin</username>
-      <password>{SNrMrSEclo0HFyCcBtkL3ds9bpOiDTCjVFI5ZoBk1B0=}</password>
+      <password>Test123</password>
       <id>central</id>
     </server>
     <server>
       <username>admin</username>
-      <password>{SNrMrSEclo0HFyCcBtkL3ds9bpOiDTCjVFI5ZoBk1B0=}</password>
+      <password>Test123</password>
       <id>snapshots</id>
     </server>
   </servers>
