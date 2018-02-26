@@ -124,7 +124,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>devops-training-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+        <url>http://localhost:8081/artifactory/devops-helloworld</url>
     </snapshotRepository>
 </distributionManagement>	
 	
