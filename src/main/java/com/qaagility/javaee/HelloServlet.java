@@ -27,10 +27,14 @@ public class HelloServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
+    @Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
-		String yourName = request.getParameter("yourName");
+    	
+    	String yourName = request.getParameter("yourName");
 		PrintWriter out = response.getWriter();
+    	try
+    	{
 		 out.println("<html>");
 	     out.println("<head>");
 	     out.println("<title>Hello World</title>");
@@ -40,6 +44,11 @@ public class HelloServlet extends HttpServlet {
 		 out.println("</body>");
 	     out.println("</html>");
 		out.close();
+    	}
+    	catch (Exception e)
+    	{
+    		e.printStackTrace();
+    	}
 	}
 
 }
