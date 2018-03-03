@@ -2,11 +2,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.qaagility.javaee</groupId>
+	
 	<artifactId>HelloWorldJavaEE</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<packaging>war</packaging>
 	<name>Hello World Java EE</name>
 	<description>Learn Java JSP and Servlet</description>
+
+	 <properties>
+    <!-- self-analysis -->
+	    <sonar.sources>src/main</sonar.sources>
+	    <sonar.tests>src/test</sonar.tests>
+	    <sonar.test.inclusions>src/test/**</sonar.test.inclusions>
+	    <!--  <sonar.exclusions>src/main/js/libs/third-party/**/*,src/main/js/libs/require.js,src/main/js/**/__tests__/**</sonar.exclusions>
+	    <yarn.script>build</yarn.script>
+	    -->
+	</properties>
 
 	<dependencies>
 		<!-- Unit Test -->
@@ -120,7 +132,11 @@
 					</execution>
 				</executions>
 			</plugin>			
-			
+			<plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.4.0.905</version>
+      </plugin>
 			
 		</plugins>
 	</build>
@@ -141,11 +157,7 @@
 				<show>public</show>
 			</configuration>
 		</plugin>
-		<plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.4.0.905</version>
-      </plugin>
+		
 	</plugins>
 </reporting>
 	
