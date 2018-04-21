@@ -22,10 +22,12 @@
 
 	<dependencies>
 		<!-- Unit Test -->
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.11</version>
+		    <scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -42,7 +44,7 @@
 	</dependencies>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<!--<sourceDirectory>src</sourceDirectory>-->
 		<plugins>
 		
 			<!--  Compiler Plug in 
@@ -165,12 +167,12 @@
     <repository>
         <id>central</id>
         <name>devops-training-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <url>http://35.154.219.57:8081/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>devops-training-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+        <url>http://35.154.219.57:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>	
 	

@@ -1,9 +1,9 @@
 ---
-- hosts: all
+- hosts: localhost
   tasks:
   - name: Hello world example 
     shell: echo "Hello World" 
   - name: Copy war file from Jenkinks workspace to tomcat webapps folder
     copy:
-      src: /usr/share/tomcat8/.m2/repository/com/qaagility/javaee/HelloWorldJavaEE/0.0.1-SNAPSHOT/HelloWorldJavaEE-0.0.1-SNAPSHOT.war
-      dest: /var/lib/tomcat8/webapps/HelloWorld.war   
+      src: /Users/bipul.kumar/.m2/repository/com/qaagility/javaee/HelloWorldJavaEE/0.0.1-SNAPSHOT/HelloWorldJavaEE-0.0.1-SNAPSHOT.war 
+      dest: /usr/local/apache-tomcat-9.0.6/webapps/HelloWorld.war   
