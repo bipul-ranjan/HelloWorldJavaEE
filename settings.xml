@@ -25,13 +25,13 @@
           </snapshots>
           <id>central</id>
           <name>lib-release</name>
-          <url>http://172.31.23.3:8081/artifactory/lib-release</url>
+          <url>http://13.127.173.163:8081/artifactory/lib-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>lib-snapshot</name>
-          <url>http://172.31.23.3:8081/artifactory/lib-snapshot</url>
+          <url>http://13.127.173.163:8081/artifactory/lib-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -41,13 +41,13 @@
           </snapshots>
           <id>central</id>
           <name>lib-release</name>
-          <url>http://172.31.23.3:8081/artifactory/lib-release</url>
+          <url>http://13.127.173.163:8081/artifactory/lib-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>lib-snapshot</name>
-          <url>http://172.31.23.3:8081/artifactory/lib-snapshot</url>
+          <url>http://13.127.173.163:8081/artifactory/lib-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
@@ -60,7 +60,7 @@
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                  http://172.31.23.3:9000
+                  http://13.127.173.163:9000
                 </sonar.host.url>
             </properties>
         </profile>
